@@ -29,33 +29,38 @@ The game includes **Player vs Player** and **Player vs Machine** modes, with **t
 
 ---
 
-## 🏗 Project Structure (important only)
+---
+
+## 📁 Project Structure
 
 ```
-main.c
-start.c
-joueurJoueur.c
-joueurMachine1.c   (easy AI)
-joueurMachine2.c   (advanced AI)
-fonctions_de_jeu*.c
-header.h
-Makefile
+Mill_Game/
+├── CORE FILES
+│   ├── fonctions_de_jeu.h        // Main header file (all declarations & global vars)
+│   ├── start.c                   // Main menu & program initialization
+│   ├── joueurJoueur.c            // Player vs Player mode
+│   ├── joueurMachine1.c          // Player vs Beginner AI
+│   ├── joueurMachine2.c          // Player vs Advanced AI
+│   ├── fonctions_de_jeu.c        // Core game logic (board, mills, captures)
+│   ├── fonctions_de_jeu2.c       // Beginner AI logic
+│   ├── fonctions_de_jeu3.c       // Advanced AI logic
+│
+├── DOCUMENTATION
+│   ├── Rapport.pdf               // Final project report
+│   └── 1CS_Project_requirements_document_24-25-FrenchVersion-Finale.pdf
+│
+└── COMPILED OUTPUT
+    └── jeu.exe (or generated executables after compilation)
 ```
 
 ---
 
-## ⚙️ How to Compile
+## 🛠️ Compilation Command
+
+Use this command to compile the entire project:
 
 ```
-make
-./mill_game.exe
-```
-
-Or:
-
-```
-gcc src/*.c -o moulin.exe
-./moulin.exe
+gcc start.c fonctions_de_jeu.c fonctions_de_jeu2.c fonctions_de_jeu3.c joueurJoueur.c joueurMachine1.c joueurMachine2.c -o jeu.exe
 ```
 
 ---
@@ -67,5 +72,3 @@ gcc src/*.c -o moulin.exe
 * Hamza Amhidi
 
 ---
-
-If you want, I can also generate a **very short README** (10 lines max) or a **GitHub-ready stylish version**.
