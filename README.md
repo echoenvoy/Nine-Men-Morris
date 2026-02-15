@@ -15,7 +15,7 @@ The game includes **Player vs Player** and **Player vs Machine** modes, with **t
 * Two game modes:
 
   * **Player vs Player**
-  * **Player vs Machine (Easy & Advanced AI)**
+  * **Player vs Machine (Easy & Medium & Advanced AI)**
 * Two phases of the game:
 
   * **Placement phase** (9 pieces per player)
