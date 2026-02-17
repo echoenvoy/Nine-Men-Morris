@@ -55,7 +55,7 @@ Mill_Game/
 
 ---
 
-## 🛠️ Compilation Command
+## Compilation Command
 
 Use this command to compile the entire project:
 
