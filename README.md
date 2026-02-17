@@ -1,16 +1,16 @@
 
 ---
 
-# 🎮 Jeu du Moulin – C Project
+# Jeu du Moulin – C Project
 
-## ✅ Description
+##  Description
 
 Implementation of the **Nine Men’s Morris (Jeu du Moulin)** game in C.
 The game includes **Player vs Player** and **Player vs Machine** modes, with **two AI difficulties** (easy + advanced).
 
 ---
 
-## 🧩 Features
+## Features
 
 * Two game modes:
 
@@ -31,7 +31,7 @@ The game includes **Player vs Player** and **Player vs Machine** modes, with **t
 
 
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Mill_Game/
@@ -62,15 +62,15 @@ Use this command to compile the entire project:
 ```
 gcc start.c fonctions_de_jeu.c fonctions_de_jeu2.c fonctions_de_jeu3.c joueurJoueur.c joueurMachine1.c joueurMachine2.c -o jeu.exe
 ```
-## 🎥 Test Video
+## Test Video
 
 A demonstration video is included showing a complete **Player vs Player** game in action :
 
-  👉 **https://drive.google.com/file/d/1ugOlfI8DJ1QFpVrhtq3PQwmW25eE8hJf/view?usp=sharing**
+  => **https://drive.google.com/file/d/1ugOlfI8DJ1QFpVrhtq3PQwmW25eE8hJf/view?usp=sharing**
 
 ---
 
-## 👨‍🏫 Authors
+##  Authors
 
 * Hamza Amhidi
 * Omar Amdouni
